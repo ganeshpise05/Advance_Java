@@ -1,5 +1,6 @@
 package decision_Statement;
 
+//Example 2: The given year is leapyear or not. 
 public class IfElseLeapYear {
 	 public static void main(String[] args) {
 		
