@@ -10,5 +10,6 @@ public class DevicePhoneDriver {
 		
 		Device d1 = s1;
 		d1.displayDevice();
+	    //d1.displaySmartPhone(); parent cant not use child class attributes.
 	}
 }
