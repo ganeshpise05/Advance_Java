@@ -10,6 +10,13 @@ public class Final_StaticGlobalVariable {
 	 static {
 		 str ="Ganesh";
 	 }
+
+//    Another approach to declare given variable is Using constructor.	 
+     static final long phno ;
+	 public Final_StaticGlobalVariable (){
+		 phno = 8329988688l;
+	 }
+	
 	
 	public static void main(String[] args) {
 		
@@ -25,6 +32,8 @@ public class Final_StaticGlobalVariable {
 		
 //		str ="Pise";//CTE can't reinitialize.
 //		System.out.println("New string is: "+str);
+		
+		System.out.println("The phno declared in constructor is: "+ phno);
 	}
 
 }
