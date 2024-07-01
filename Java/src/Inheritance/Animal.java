@@ -1,5 +1,8 @@
 package Inheritance;
 
+//Example no 1:
+//Animal class: name, age
+//Dog class (inherits Animal): breed, behavior
 public class Animal {
 	
 	String name;
