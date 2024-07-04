@@ -9,7 +9,7 @@ public class PrintEven_ifOddMake_Even {
 
 	public static void main(String[] args) {
 		
-		int a [] = {22,38,4,35,6,7,8};
+		int a [] = {22,38,4,35,6,77,8,3,9};
 		int ans [] = new int [a.length];
 		for (int i = 0,j=0; i < a.length; i++,j++) {
 			
@@ -17,7 +17,7 @@ public class PrintEven_ifOddMake_Even {
 				ans[j] = a[i];
 				
 			} else {
-                ans[j] = a[i+1];
+                ans[j] = a[i]+1;
 			}	
 		}
 		System.out.println(Arrays.toString(ans));
