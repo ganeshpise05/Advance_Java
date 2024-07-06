@@ -1,6 +1,5 @@
 package Abstraction;
-
-import java.util.Arrays;
+ 
 
 public class Remove_OccurencesOfElements {
 
@@ -28,10 +27,10 @@ public class Remove_OccurencesOfElements {
 		
 		for (int i = 0; i < ref.length; i++) {
 			if (ref[i] != -1) {
-				System.out.print(a[i]+ " ");
+				System.out.print(a[i]+ " ");//Unique elements print
 			}
 		}
 		System.out.println(": all are the Unique Elements i.e we removed duplicates.");
-		System.out.println(Arrays.toString(ref));
+		//System.out.println(Arrays.toString(ref));
 	}
 }
