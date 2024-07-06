@@ -23,7 +23,7 @@ public class Countof_RepeatedElements {
 				}
 				ref[i] = count;
 				
-				System.out.println("count of "+a[i]+" is: "+count);
+				System.out.println("count of "+a[i]+" is repeated: "+count +" times.");
 			}
 			
 		} 
