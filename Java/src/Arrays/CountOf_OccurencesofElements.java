@@ -25,9 +25,12 @@ public class CountOf_OccurencesofElements {
                 }
                 ref[i] = count; // Store count of the element
             }
+            
+            System.out.println(a[i] + " count is: "+ ref[i]);
         }
 
 		
 		System.out.println(Arrays.toString(ref));
+		
  	}
 }
