@@ -21,12 +21,11 @@ public class RemoveElementsFrom_GivenIndex {
 			if (i<start) {
 				ans[i] = a[i];
 			}
-			else if (i>=end) {
-                ans[i-diff] = a[i];
-                ans[i] = ans[i-diff];
+			else {
+                ans[i] = a[i+diff];
 			}
-		}
 		
+		}
 		System.out.println(Arrays.toString(ans));
 	}
 }
