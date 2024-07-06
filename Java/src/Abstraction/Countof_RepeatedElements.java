@@ -22,16 +22,10 @@ public class Countof_RepeatedElements {
 					}
 				}
 				ref[i] = count;
+				
+				System.out.println("count of "+a[i]+" is: "+count);
 			}
-		}
-		
-		for (int i = 0; i < ref.length; i++) {
-			if (ref[i] != -1) {
-				count2 ++;
-				ref[i] = count2;
-			}
-			System.out.println("count of "+ref[i]+" is: "+count2);
-		}
-		
+			
+		} 
 	}
 }
