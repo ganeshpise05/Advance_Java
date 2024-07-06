@@ -27,10 +27,10 @@ public class InsertElementsin_GivenIndex {
 			}
 			
 			else {
-                ans[i] = a[i];
+                ans[i] = a[i-b.length];
 			}
-		}
 		
+		}
 		System.out.println("The inserted elements from index 3 is: "+Arrays.toString(ans));
 	}
 }
