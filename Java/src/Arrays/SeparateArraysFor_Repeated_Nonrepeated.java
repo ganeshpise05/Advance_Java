@@ -30,6 +30,5 @@ public class SeparateArraysFor_Repeated_Nonrepeated {
 			
 		}
 		System.out.println(Arrays.toString(ref));
-		
 	}
 }
