@@ -5,7 +5,7 @@ import java.util.Arrays;
 // Bubble Sort: Give one array and sort elements by using the asc order.
 // [9,8,7,6,5,4,3,2,1] -----> [1,2,3,4,5,6,7,8,9]
 
-public class Bubble_sort {
+public class Bubble_Sort {
 
 	public static void main(String[] args) {
 		
