@@ -1,6 +1,6 @@
 package decision_Statement;
-
 import java.util.Scanner;
+//Nested if-else Example No:2
 
 public class ElseIf_AgeGroup {
 	
