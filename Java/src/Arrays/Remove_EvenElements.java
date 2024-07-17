@@ -8,7 +8,7 @@ public class Remove_EvenElements {
 
 	public static void main(String[] args) {
 		
-		int a [] = {2,3,4,5,7,9,2,1,9,1,7};
+		int a [] = {2,3,34,5,74,9,2,11,99,16,77};
 		
 		// First count the odd elements.
 		int oddCount = 0;
