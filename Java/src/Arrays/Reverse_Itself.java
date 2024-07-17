@@ -6,7 +6,7 @@ public class Reverse_Itself {
 
 	public static void main(String[] args) {
 		
-		int [] a = {10,20,40,30,20,70};
+		int [] a = {10,20,30,40,50,60,70,80};
 		
 		for (int i = 0,j = a.length-1; i < j; i++,j--) {
 			
