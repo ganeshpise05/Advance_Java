@@ -1,5 +1,7 @@
 package String;
  
+// Palindrome String: Give an one string check weather string is palindrome or not.
+// Examples: madam ,racecar,level,radar,deified,civic,rotor,kayak,reviver,rotator   ------------> madam 
 
 public class PalindromeString_5 {
 
