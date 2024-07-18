@@ -1,5 +1,6 @@
 package decision_Statement;
 import java.util.Scanner;
+
 //Example 4: Checking if a number is divisible by 5
 public class IfElseDivisible {
 
