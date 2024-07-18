@@ -1,6 +1,6 @@
 package String;
 
-// Extract characters : Give one string and extract the Characters of given String.
+// Q.1> Extract characters : Give one string and extract the Characters of given String.
 // String s ="Funtya" ---------> F u n t y a
 
 public class ExtractChar_1 {
