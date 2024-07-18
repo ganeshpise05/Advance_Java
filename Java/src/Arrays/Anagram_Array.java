@@ -5,7 +5,7 @@ public class Anagram_Array {
 	public static void main(String[] args) {
 		
 		int a[] = {1,2,3,4,5,6,7};
-		int b[] = {5,3,2,6,1,7,4,5};
+		int b[] = {5,3,2,6,2,7,4};
 		
 		if (a.length == b.length) {
 			
