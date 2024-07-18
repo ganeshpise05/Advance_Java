@@ -1,7 +1,7 @@
 package Arrays;
-
 import java.util.Arrays;
 
+//Merge two Arrays & Store in third one.
 public class MergeTwoArrays_Using3rdVar {
 
 	public static void main(String[] args) {
