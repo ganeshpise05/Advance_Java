@@ -1,5 +1,7 @@
 package loop_Statement;
 
+//Summing numbers from 1 to 100:
+
 public class While_SumOfNumbers {
 
 	public static void main(String[] args) {
