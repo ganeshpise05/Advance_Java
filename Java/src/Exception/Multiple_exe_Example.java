@@ -4,6 +4,8 @@ public class Multiple_exe_Example {
 
 	public static void main(String[] args) {
 		
+		//System.out.println(10/0);
+		 
 		try {
             // Code that may throw various exceptions
             String str = null;
