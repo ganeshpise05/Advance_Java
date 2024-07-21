@@ -36,7 +36,7 @@ public class Car {
     	this.model = model;
     }
     
-    public int year() {
+    public int getYear() {
     	return year;
     }
     public void setYear(int year) {
