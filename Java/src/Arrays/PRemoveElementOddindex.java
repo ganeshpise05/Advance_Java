@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 // Remove Odd Index Elements : Give an one array and remove the odd index elements.
-// [1,2,3,4,5,6,7,8,9] -------> [1,3,5,7,9]
+// [1,2,3,4,5,6,7,8] -------> [1,3,5,7]
 
 public class PRemoveElementOddindex {
 
