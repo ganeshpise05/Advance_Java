@@ -29,18 +29,15 @@ public class SentenceToWord_11 {
         
         // Create an array to store words
 		String [] ans  = new String [wordCount];
-		
 			int j = 0;
 			String temp = " ";
-			
 			for (int  i = 0; i < s.length(); i++) {
 				
 				if (s.charAt(i)== ' ' ) {
 					ans[j] = temp;
 					j++;
 					temp = ""; 
-				}
-				else {
+				}else {
 					temp+=s.charAt(i);
 				}
 			}
