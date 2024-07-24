@@ -3,6 +3,7 @@ package Math;
 import java.util.Scanner;
 
 // Find the angle <ABC (in degree) of right angle triangle where AB=5cm and AC=13cm.
+//Hypotanious is always greater than side (Hypo > side).
 
 public class RightTriangle {
 
@@ -23,6 +24,6 @@ public class RightTriangle {
 		System.out.print("Enter Hypotanious: ");
 		double hypo = sc.nextDouble();
 		
-		System.out.println("Angle in Degree: "+findSinAngle(oppoSide,hypo));
+		System.out.println("The Angle <BAC in Degree: "+findSinAngle(oppoSide,hypo));
 	}
 }
