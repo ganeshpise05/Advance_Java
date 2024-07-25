@@ -1,7 +1,6 @@
 package Arrays;
 
-import java.util.Arrays;
-import java.util.Iterator;
+import java.util.Arrays; 
 
 // Insert new Array: Give an a one array and insert new array from index 4 and print.
 // [22,23,24,25,26,27,28,29,30]  + [01,02,03,04,05] insert from index 4  -----> [22,23,24,25,--01,02,03,04,05--,26,27,28,29,30]
