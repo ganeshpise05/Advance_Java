@@ -10,17 +10,26 @@ public class Person {
 	    private double weight;
 	    private String gender;
 	    
-	    Person(){
+	    public Person(){
 	    	//No argument constructor.
 	    }
 	    
-	    Person(String name,int age,String address,long phoneNumber,String email,double weight,String gender){
+	    public Person(String name,int age,String address,long phoneNumber,String email,double weight,String gender){
 	    	this.name = name;
+	    	this.age = age;
+	    	this.address = address;
+	    	this.phoneNumber = phoneNumber;
+	    	this.email = email;
+	    	this.weight = weight;
+	    	this.gender = gender;
 	    }
 	    
 	    // Getter and Setter methods for all above attributes.
 	    public String getName() {
 	    	return name;
+	    }
+	    public void setName(String name) {
+	    	this.name = name;
 	    }
 	    
 	    public int getAge() {
@@ -53,6 +62,10 @@ public class Person {
 		}
 		public void setWeight(double weight) {
 			this.weight =  weight;
+		}
+
+		public String getGender() {
+			return gender;
 		}
 
 }
