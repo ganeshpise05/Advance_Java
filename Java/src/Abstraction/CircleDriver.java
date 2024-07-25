@@ -6,7 +6,6 @@ public class CircleDriver {
 		 
 		Shape s = new Circle1();
 		s.draw();
-
 	}
 
 }
