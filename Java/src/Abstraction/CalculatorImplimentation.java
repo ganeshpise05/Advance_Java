@@ -21,7 +21,7 @@ public class CalculatorImplimentation extends Calculator {
 	
 	public void greeting()
 	{
-		System.out.println("This is a bad calculator");
+		System.out.println("This is a bad calculator"); //This is not accept because this type of method is not present in parent class.
 	}
 
 	 
