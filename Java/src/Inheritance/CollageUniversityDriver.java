@@ -6,6 +6,7 @@ public class CollageUniversityDriver {
 		
 		Collage c1 = new Collage();
 		c1.displayCollage();
+		c1.displayUniversity();
 		
 		University u2 = new University();
 		u2.displayUniversity();
@@ -18,6 +19,11 @@ public class CollageUniversityDriver {
 		
 		Collage c3 = new Collage("Pawar.A.S",6745,"Sveri Collage","Pandharpur","Disha Pathan",92973," PAH University","Solapur");
 		c3.displayCollage();
+		
+		University col = new Collage();
+		col.displayUniversity();
+		 
+		 
 	}
 
 }
