@@ -1,6 +1,6 @@
 package Interface;
 
-public class Login implements User {
+public class Login extends Change_pass_username  implements User {
 	
 	private int loginattempts;
 
@@ -15,7 +15,8 @@ public class Login implements User {
 	            loginattempts = 0; // Reset login attempts on successful login
 	            System.out.println("Login successful.");
 	            return true;
-	        } else {
+	        } 
+	        else {
 	            loginattempts++;
 	            System.out.println("Invalid credentials. Attempt " + loginattempts);
 	            return false;
