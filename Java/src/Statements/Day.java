@@ -2,7 +2,7 @@ package Statements;
 
 import java.util.Scanner;
 
-// Example: Day of the Week
+// Example 1: Day of the Week
 public class Day {
 
 	public static void main(String[] args) {
