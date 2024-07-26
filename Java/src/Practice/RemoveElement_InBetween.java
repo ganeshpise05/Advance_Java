@@ -3,7 +3,7 @@ package Practice;
 import java.util.Arrays;
 
 // Remove Elements : Give an array and remove elements in between given two index.
-// [2,34,3545,3,12,34,5,4532,133,67,76,67,86] ---------> [2,34,3545,3,12,67,76,67,86]  5 to 8
+// [2,34,3545,3,12,34,5,4532,133,67,76,67,86] ---------> [2,34,3545,3,12,67,76,67,86]  5 to 9
 public class RemoveElement_InBetween {
 
 	public static void main(String[] args) {
