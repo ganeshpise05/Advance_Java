@@ -25,11 +25,12 @@ public class Merge_TwoArrFromGivenIndex {
 		b.add("Radish");
 		
 		ArrayList<Object> c = new ArrayList<>();
-//		c.addAll(a);
+		c.addAll(a);
 //		c.addAll(b);
 //		System.out.println(c);
 //		System.out.println(" ");
 		
+		//int index = 2;
 		c.addAll(2, b);  // Adding elements from second index.
 		System.out.println(c); 
 	}
