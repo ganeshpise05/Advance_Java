@@ -15,8 +15,10 @@ public class Find_IndexElements {
 			a.add(123.45);
 			a.add(834897865);
 			
-			for (int i = 0 ; i< a.size();i++) {
-				System.out.println(a.get((int) i));
-			} 
+			System.out.println(a);
+			
+			for (Object object : a) {
+			   System.out.println(object);    
+			}
  	}
 }
