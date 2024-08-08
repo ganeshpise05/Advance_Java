@@ -1,6 +1,9 @@
 package Collection;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
 
 public class Student_Hash1 {
@@ -53,6 +56,13 @@ public class Student_Hash1 {
         students.add(new Student_Hash1(4, "Diana", 19, "Freshman", "A"));
         students.add(new Student_Hash1(5, "Eve", 20, "Sophomore", "B"));
         students.add(new Student_Hash1(5, "Eve", 20, "Sophomore", "B")); // Duplicate entry
+
+        // Convert the HashSet to a List
+        List<Student_Hash1> studentList = new ArrayList<>(students);
+        
+       // Shuffle the list
+        Collections.shuffle(studentList);
+        System.out.println(studentList);
 
         // Print the set of students
         for (Student_Hash1 s : students) {
