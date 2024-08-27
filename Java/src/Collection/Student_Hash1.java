@@ -62,7 +62,9 @@ public class Student_Hash1 {
         
        // Shuffle the list
         Collections.shuffle(studentList);
-        System.out.println(studentList);
+        System.out.println(studentList); 
+        
+        System.out.println(Collections.emptyList());
 
         // Print the set of students
         for (Student_Hash1 s : students) {
