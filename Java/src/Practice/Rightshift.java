@@ -13,6 +13,7 @@ public class Rightshift {
 			a[i] = a[i-1];
 		}
 		a[0] = last ;
+		
 		System.out.println(Arrays.toString(a));
 	}
 }
