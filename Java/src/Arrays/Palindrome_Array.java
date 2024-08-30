@@ -17,6 +17,7 @@ public class Palindrome_Array {
 			}
 		}
 	     
+	     
         if ( i>j) {
         	System.out.println("The given array "+Arrays.toString(a)+" is palindrome.");
 		} 
